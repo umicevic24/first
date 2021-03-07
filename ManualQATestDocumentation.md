@@ -224,9 +224,9 @@
 |---------------------------------|---------------------------------------------------------------------------------------------------|
 |1|	Install and pin the correct version of the plugin|
 |2|	Go to the any selected store that has Arabic language option|
-|	||
+|	|**************************************************************|
 |	|If the store is supported and there are codes available:|
-|	||
+|	|**************************************************************|
 |1| Validate that the search page is using Arabic language and that no strange non-Arabic signs are present|
 |2|	If the time is not of essence, take the screenshot of the page so it can be easily accessible later|
 |3|	Validate that the pop-up landing page is using Arabic language and that no strange non-Abaric signs are present|
@@ -239,9 +239,9 @@
 |10|	There are two possible messages in the outcome, positive and negative, try accesing stores with both versions to verify if both versions are using Arab language and no |
 || strange non-Arabic signs are present|
 |11|	If the time is not of essence, take the screenshot of the page so it can be easily accessible later|
-|	||
+|	|****************************************************************|
 |	|If the store is not supported or there are no codes available:|
-|	||
+|	|****************************************************************|
 |1|Validate that the search page is using Arabic language and that no strange non-Arabic signs are present|
 |2|	If the time is not of essence, take the screenshot of the page so it can be easily accessible later|
 |3|	Validate that the pop-up landing page is using Arabic language, no coupon message and link to refer to one  is there and that no strange non-Abaric signs are present|
