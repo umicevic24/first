@@ -1,5 +1,6 @@
 # Auto apply (Main Thread Scenario)
 
+
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
 |1	                              |Install and pin the correct version of the plugin                                                  |
@@ -105,6 +106,7 @@
 
 # Installation journey
 
+
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
 |1|	Open Chrome Browser and go to https://joinmango.co/|
@@ -165,6 +167,8 @@
 
 # Auto apply (Additional scenarios)
 
+
+
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
 |1|	Open Chrome Browser and click on JoinMango Plugin|
@@ -205,6 +209,8 @@
 
 # Standard Cashback scenario
 
+
+
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
 |1|	Find the store for which we have affiliate link and open it, notice which affiliate network is used|
@@ -219,6 +225,8 @@
 |10|	Go to our Database and check whether the same transaction with the same data (sub_id, cashback value...) is present|
 
 # Language checking
+
+
 
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
@@ -252,6 +260,8 @@
 
 
 # Login Scenario
+
+
 
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
