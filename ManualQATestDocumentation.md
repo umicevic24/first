@@ -101,3 +101,18 @@
 |	||
 |	||
 |	|Important notice: Be familiar with single page sites and implement the scenario on them as well!|
+
+
+# Installation journey
+
+|Steps                            |	Actions                                          |
+|---------------------------------|---------------------------------------------------------------------------------------------------|
+
+
+
+
+
+
+
+
+
