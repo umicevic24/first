@@ -203,6 +203,27 @@
 | |************************************************************************************************|
 
 
+# Standard Cashback scenario
+
+|Steps                            |	Actions                                          |
+|---------------------------------|---------------------------------------------------------------------------------------------------|
+|1|	Find the store for which we have affiliate link and open it, notice which affiliate network is used|
+|2|	Click five-ten times anywhere on the page|
+|3|	Validate that a new tab with the same store and a affiliate link has opened|
+|4|	Go to that new tab and that store|
+|5|	Add some low cost items and go to the checkout|
+|6|	write TESTDEMOTEST on every field you can and click next|
+|7|	For the payment option choose "Cash on delivery" if that is not available find another store|
+|8|	Validate thank you page has showed up and take and save screenshot|
+|9|	Wait for a day, than go to appropriate affiliate network site and in look in reports to find your transaction|
+|10|	Go to our Database and check whether the same transaction with the same data (sub_id, cashback value...) is present|
+
+
+
+
+
+
+
 
 
 
