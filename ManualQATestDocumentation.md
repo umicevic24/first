@@ -58,7 +58,7 @@
 |6	|Start auto-apply again|
 |7	|After finish validate which of the coupons have been expired|
 |	||
-|Run the process again and validate if the results are the same|
+|Run the process again and validate if the results are the same!|
 |	||
 |	||
 |Do the same for the checkout page:|
@@ -79,7 +79,7 @@
 |3	|Validate that codes have been applied|
 |4	|Validated that the process has finished properly withouth interruption|
 |	||
-|If the Store total price shows that coupon has been found|
+|If the Store total price shows that coupon has been found:|
 |	||
 |1	|Validate that Minty/Mango coupons are present and selected|
 |2	|If not validate that from the other coupons the best coupon has been selected|
@@ -87,7 +87,7 @@
 |4	|Validate that the name of the coupon in the last message is the same as the coupon applied in the store|
 |5	|Validate that the value of coupon is the same as the value applied in the store|
 |	||
-|If the coupon has not been found|
+|If the coupon has not been found:|
 |	||
 |1	|Validate that the corect message has been presented|
 |2	|Validate that the "continue" and "x" button are working properly|
@@ -97,7 +97,7 @@
 |6	|Start auto-apply again|
 |7	|After finish validate which of the coupons have been expired|
 |	||
-|Run the process again and validate if the results are the same|
+|Run the process again and validate if the results are the same:|
 |	||
 |	||
-|	|Important notice: Be familiar with single page sites and implement the scenario on them as well|
+|	|Important notice: Be familiar with single page sites and implement the scenario on them as well!|
