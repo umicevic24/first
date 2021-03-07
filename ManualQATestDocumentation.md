@@ -163,7 +163,7 @@
 
 
 
-Auto apply (Additional scenarios)
+#Auto apply (Additional scenarios)
 
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
@@ -172,36 +172,35 @@ Auto apply (Additional scenarios)
 |3|	Search a store|
 |4|	Find a store that has an afiliate link|
 |5|	Validate if the links lead to proper website|
-|	||
+|	|******************************************************|
 |	|Search and Affiliate links validation (scenario above)|
-|	||
+|	|******************************************************|
 |1|	Open Chrome Browser and go to store which is not supported by JoinMango|
 |2|	Click on Join Mango Plugin|
 |3|	Validate User should see a message "We don't support this website at the moment. If you think this store should be added, let us know and we'll add it as soon as possible."|
 |4|	Click on Submit Request|
 |5|	"Validate request should submit successfully and user should get message "Thank you! Our team is working on it and the store will be added to Mango shortly!"|
-| | |
 |6|	Validate JoinMango should receive request to add the store|
 |7|	Click Done Button. 'Validate user should go back to JoinMango plugin home page|
-|	||
+|	|******************************************************|
 |	|"Submit Request to add a Store (scenario above)"|
-|	||
+|	|******************************************************|
 |1|	Open Chrome Browser and leave Address bar empty (don’t search for any store)|
 |2|	Click on Join Mango Plugin|
 |3|	Validate User should see a message "We don't support this website at the moment. If you think this store should be added, let us know and we'll add it as soon as possible."|
 |4|	Validate "Submit Request" link should be missing|
-|	||
+|	|************************************************************************************************|
 |	|"Submit request" link should be missing if Browser Address bar is empty (scenario above)|
-|	||
+|	|************************************************************************************************|
 |1|	Open Chrome Browser and go to store (for ex: https://en-ae.namshi.com/) which is supported by JoinMango|
 |2|	Click on Join Mango Plugin|
 |3|	Validate User should not see a message "We don't support this website at the moment. If you think this store should be added..."|
 |4|Validate user should not see "Submit Request" link|
 |5|	Validate JoinMago Plugin should display the valid discount codes for the store|
 |6|	Validate JoinMango should not display expired codes|
-|	||
+|	|************************************************************************************************|
 |	|"Submit request" link should be missing if store is already supported by JoinMango  (scenario above)|
-| ||
+| |************************************************************************************************|
 
 
 
