@@ -285,7 +285,53 @@
 |5|	Validate that in database there is recored with the same e-mail and correct info|
 
 
+# Search testing Scenario
 
+|Steps                            |	Actions                                          |
+|---------------------------------|---------------------------------------------------------------------------------------------------|
+|1|	Open the search page and get to the search field|
+|2|	Validate placeholder text (displayed within the search box and disappear when you start typing) is enabled|
+|3|	Validate you are able to see each and every feature of Search in responsive mode, it must be mobile friendly|
+|4|	Validate when you click on the search bar previous searches are presented|
+|	||
+|1|	Enter one after another in the search correctly spelled with small captions|
+|2|	Enter one after another in the search correctly spelled with small captions|
+|3|	Validate all of them appeared|
+|4|	Validate the suggestions are properly updated when you enter/remove a keyword|
+|5|	Validate links present are opening the correct stores|
+|6|	Validate img of the results are responsive and mobile friendly|
+|	||
+|1| Select ten most important stores|
+|2|	Enter one after another in the search correctly spelled with large captions|
+|3|	Validate all of them appeared|
+|4|	Validate the suggestions are properly updated when you enter/remove a keyword|
+|5|	Validate links present are opening the correct stores|
+|6|	Validate img of the results are responsive and mobile friendly|
+|	||
+|1|	Open the search page and get to the search field|
+|2|	Enter string with random characters like "!#@$%^&"|
+|3|	Validate no results wave been found|
+|	||
+|1|	Open the search page and get to the search field|
+|2|	Enter H&M |
+|3|	Validate that the store has appeard|
+|4|	Remove the entry|
+|5|	Enter B&B|
+|6|	Validate that the Bath and Body store has appeard|
+|7|	Remove the entry|
+|8|	Enter "123"|
+|9|	Validate that there are stores present|
+|10|	Remove the entry|
+|	||
+|1|	Open the search page and get to the search field|
+|2|	Enter double "a" sign|
+|3|	Validate that names of the stores have no strange unarticulated signs|
+|4|	Remove the entry|
+|5|	Enter double b|
+|6|	Validate that names of the stores have no strange unarticulated signs|
+|7|	Remove the entry|
+|8|	Go trough entire alphabet and validate the same results|
+	
 
 
 
