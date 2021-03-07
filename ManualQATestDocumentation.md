@@ -251,7 +251,28 @@
 |7|	If the time is not of essence, take the screenshot of the page so it can be easily accessible later|
 
 
+# Login Scenario
 
+|Steps                            |	Actions                                          |
+|---------------------------------|---------------------------------------------------------------------------------------------------|
+|1|	Click on the Mango sign in page|
+|2|	Click join with google|
+|3|	Click sign-in|
+|4|	Select your e-mail account and click sign-in|
+|5|	Validate you are signed in page has appeared|
+|6|	Validate that in database there is recored with the same e-mail and correct info|
+|	||
+|1| Click on the Mango sign in page|
+|2|	Click join with facebook|
+|3|	Click log in and enter your facebook credidential|
+|4|	Validate you are signed in page has appeared|
+|5|	Validate that in database there is recored with the same e-mail and correct info|
+|	||
+|1|	Click on the Mango sign in page|
+|2|	Click Join with e-mail|
+|3|	Validate that the every field in form looks good|
+|4|	Enter your info|
+|5|	Validate that in database there is recored with the same e-mail and correct info|
 
 
 
