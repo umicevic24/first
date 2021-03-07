@@ -128,7 +128,7 @@
 |3|	Validate user should directly land on "Ready to shop & save?" page|
 |	|
 |	|******************************************************************************************************************|
-|Re-adding Mango plugin extension|
+||Re-adding Mango plugin extension|
 |	|******************************************************************************************************************|
 |1|Open Chrome Browser and go to Manage Extensions|
 |2|	Click on "Remove" button for Mango: Auto-Apply Coupon Codes extension|
@@ -146,7 +146,7 @@
 |8|	Select a reason to uninstall and click Submit|
 |9|	Validate JoinMango should receive users feedback successfully and save in DB|
 |	|******************************************************************************************************************|
-|Remove Mango Plugin extension using Manage Extensions and vaidating cancel function|
+||Remove Mango Plugin extension using Manage Extensions and vaidating cancel function|
 |	|******************************************************************************************************************|
 |1 |Open Chrome Browser and go to JoinMango.co|
 |2|	Click on "Add to Chrome - It's Free" button|
