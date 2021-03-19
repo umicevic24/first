@@ -8,7 +8,7 @@
 |    3|Validate that the store is supported                                                               |
 |    4|Validate that there are codes available                                                            |
 |    5|Validate if the store logo is present and if it has proportional witdth and height                 |
-||************************************************************************************************** |
+|************************************|************************************************************************************************** |
 |1|Install and pin the correct version of the plugin|
 |2| Go to the any selected store|
 |3| Add couple of items to the cart|
@@ -16,7 +16,7 @@
 |5| Validate that there is coupon field present|
 |6| Validate that Mango/Minty pop-up has appeared|
 |7| If not, validate that auto-apply button is present in the Mango/Minty extension pop-up page|
-||************************************************************************************************** |
+|************************************|************************************************************************************************** |
 |1|Install and pin the correct version of the plugin|
 |2| Go to the any selected store|
 |3| Add couple of items to the cart|
@@ -24,7 +24,7 @@
 |5| Validate that there is coupon field present|
 |6| Validate that Mango/Minty pop-up has appeared|
 |7| If not, validate that auto-apply button is present in the Mango/Minty extension pop-up page|
-||************************************************************************************************** |
+|************************************|************************************************************************************************** |
 |1| Install and pin the correct version of the plugin|
 |2| Go to the any selected store|
 |3| Add couple of items to the cart|
