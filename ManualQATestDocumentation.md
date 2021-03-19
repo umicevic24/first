@@ -224,6 +224,7 @@
 |9|	Wait for a day, than go to appropriate affiliate network site and in look in reports to find your transaction|
 |10|	Go to our Database and check whether the same transaction with the same data (sub_id, cashback value...) is present|
 
+
 # Language checking
 
 
@@ -332,6 +333,62 @@
 |7|	Remove the entry|
 |8|	Go trough entire alphabet and validate the same results|
 	
+
+# STANDARD AUTOMATED API TESTING SCRIPT
+
+| ID                              | TESTED API                       | SCRIPT DESCRIPTION:                                                                 |
+|---------------------------------|----------------------------------|-----------------------------------------------------------------|
+|				  |
+|1|	getStoreDetailFromStoreId|	Searching for correct StoreId in extension, expecting successful feedback|			|
+|2|	getStoreDetailFromStoreId|	Searching for non-existent store id in extension, expecting error code "3"|			|
+|3|	getStoreDetailFromStoreId|	Searching for correct StoreId on mobile app, expecting successful feedback|			|
+|4|	getStoreDetailFromStoreId|	Searching for non-existent StoreId on mobile app, expecting error code "3"|			|
+|5|	getLanguageDetail|	Calling out English language messages, expecting successful feedback|					|
+|6|	getLanguageDetail|	Calling out Arabic language messages, expecting successful feedback|					|
+|7|	getLanguageDetail|	Calling out undefined lang_code, expecting error code 17|						|
+|8|	getCountryDetailFromLatLong|	Calling out Dubai Coordinates, expecting successful feedback|					|
+|9|	getCountryDetailFromLatLong|	Calling out USA Coordinates, expecting successful feedback|					|
+|10|	getStoreDetailFromUrl|	 Posting "https://www.goldenscent.com/", UAE Store expecting successful feedback|			|
+|11|	getStoreDetailFromUrl|	 Posting "https://www.kancanusa.com/", USA expecting successful feedback|				|
+|12|	getStoreDetailFromUrl|	 Posting non-existent URL, expecting error code 8|							|
+|13|	createPluginUser|	 Creating plugin user that already exists, expecting error code 15|					|
+|14|	getPluginUserDetail|	 Checking existing plugin user,  expecting successful feedback with correct id|				|
+|15|	getPluginUserDetail|	Checking non-existent unique_id, expecting error code 16|						|
+|16|	topStoreList|	Calling out topStoreList of nonexistant user, expecting error code 7|						|
+|17|	topStoreList|	Calling out USA topStoreList of existant user, expecting successful feedback|					|
+|18|	topStoreList|	Calling out UAE topStoreList of existant user, expecting successful feedback|					|
+|19|	searchStore|	Existing user searching for "NOON" store, expecting successful feedback with correct store|			|
+|20|	searchStore|	Existing user searching for USA stores, expecting successful feedback|						|
+|21|	getStoreDetailFromStoreId|	Calling out nonexistent store id, expecting error code 3|					|
+|22|	pluginUserStoreFollow|	Call out a function to follow already followed store, expecting error code 10|				|
+|23|	pluginUserStoreFollow|	Call out a function to follow unfollowed store, expecting successful feedback|				|
+|24|	pluginUserStoreFollow|	Call out a function to unfollow already unfollowed store, expecting error code 11|			|
+|25|	pluginUserStoreFollow|	Call out a function to unfollow followed store, expecting successful feedback|				|
+|26|	getRedirectionUrlOfNetworkByStoreId|	Post "Bath and Body", store id and expect successful feedback with correct monetization source||
+|27|	getRedirectionUrlOfNetworkByStoreId|	Post non existent store id and expect error code 9|						|
+|28|	uninstallPluginUser|	Call out a function with correct unique user id, expect script feedback|					|
+|29|	postGaEventLogger|	// Here i do not understand the purpose of api, need more info, but Alkas test example returns successful feedback, so I saved it and expect the|| 
+|same outcome||
+|30|	updatePluginUser|	Updating existent user expecting positive feedback|							|
+|31|	updatePluginUser|	Updating non-existent user expecting error code 7|							|
+|32|	createCoupon|	Calling a function to create already existent User, expecting error code 21|					|
+|33|	getCountryList|	Calling a function and expecting positive feedback|								|
+|34|	createAppUser|	Creating already created app user, expecting error code 15|							|
+|35|	updateAppUser|	Updating existent app user expecting successful feedback|							|
+|36|	updateAppUser|	Updating non-existent app user expecting error code 7|								|
+|37|	getFollowedStoreDetailByUserId|	Call a function to get followed stores of an existent user, expect positive feedback|		|
+|38|	getFollowedStoreDetailByUserId|	Call a function to get followed stores of non existent user, expect error code 7|		|
+|39|	getStoreIdFromURL|	Searching for "Namshi" UAE store, expecting id="287"|							|
+|40|	getStoreIdFromURL|	Searching for "Bath and Body" UAE store, expecting id="295"|						|	
+|41|	getStoreIdFromURL|	Searching for "Noon" UAE store, expecting id="295"|							|
+|42|	getStoreIdFromURL|	Searching for non existent URL, expecting error code 8|							|
+|43|	getStoreIdFromURL|	Searching for Kancan, USA store expecting id="15644"|							|
+|44|	getStoreIdFromURL|	Searching for USA Foods, USA store expecting id="13056"|						|
+|45|	getStoreIdFromURL|	Searching for Randolph, USA store expecting id="13317"|							|
+|46|	SubmitUserData|	Adding User Store |												|
+|47|	SubmitUserData|	Adding User Coupon|												|
+		
+
 
 
 
