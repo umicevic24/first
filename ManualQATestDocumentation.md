@@ -367,8 +367,7 @@
 |26|	getRedirectionUrlOfNetworkByStoreId|	Post "Bath and Body", store id and expect successful feedback with correct monetization source||
 |27|	getRedirectionUrlOfNetworkByStoreId|	Post non existent store id and expect error code 9|						|
 |28|	uninstallPluginUser|	Call out a function with correct unique user id, expect script feedback|					|
-|29|	postGaEventLogger|	// Here i do not understand the purpose of api, need more info, but Alkas test example returns successful feedback, so I saved it and expect the|| 
-|same outcome||
+|29|	postGaEventLogger|	// Here i do not understand the purpose of api, need more info, but Alkas test example returns successful feedback, so I saved it and expect the same outcome||
 |30|	updatePluginUser|	Updating existent user expecting positive feedback|							|
 |31|	updatePluginUser|	Updating non-existent user expecting error code 7|							|
 |32|	createCoupon|	Calling a function to create already existent User, expecting error code 21|					|
