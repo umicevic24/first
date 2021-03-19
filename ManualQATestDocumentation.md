@@ -109,23 +109,23 @@
 
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
-|1|	Open Chrome Browser and go to https://joinmango.co/|
-|2|	Click on "Add to Chrome - It's Free" button|
-|3|	On "Mango: Auto Apply Coupon Codes" Page, Click "Add to Chrome" button|
-|4|	Validate "Add Mango: Auto-Apply Coupon Codes?" popup Should display to user|
+|1|	Open Chrome Browser and go to https://www.minty.com/|
+|2|	Click on "Get Minty - It's Free" button|
+|3|	On "Minty: Your Shopping Companion" Page, Click "Add to Chrome" button|
+|4|	Validate "Add Minty: Your Shopping Companion" popup Should display to user|
 |5|	Click Cancel|
-|6|	Validate JoinMango plugin should not add to Chrome extensions|
+|6|	Validate Minty plugin should not add to Chrome extensions|
 |	||
-|1|	Open Chrome Browser and go to https://joinmango.co/|
-|2|	Click on "Add to Chrome - It's Free" button|
-|3|	On "Mango: Auto Apply Coupon Codes" Page, Click "Add to Chrome" button|
-|4|	Validate "Add Mango: Auto-Apply Coupon Codes?" popup Should display to user|
+|1|	Open Chrome Browser and go to https://www.minty.com/|
+|2|	Click on "Get Minty - It's Free" button|
+|3|	On "Minty: Your Shopping Companion" Page, Click "Add to Chrome" button|
+|4|	Validate "Add Minty: Your Shopping Companion" popup Should display to user|
 |5|	Click Add extension|
-|6|	Validate JoinMango plugin should add to Chrome extensions|
-|7|	Validate user lands on https://joinmango.co/install/ page and page should display message "Ready to shop & Save? "|
+|6|	Validate Minty plugin should add to Chrome extensions|
+|7|	Validate user lands on https://www.minty.com/postinstall page and page should display message "Ready to shop & Save? "|
 |	|******************************************************************************************************************|
 |	||
-|1|	Open Chrome Browser and go to https://joinmango.co/|
+|1|	Open Chrome Browser and go to https://www.minty.com/|
 |2|	Validate once plugin added successfully to chrome extensions, user should not be asked to Add extension again|
 |3|	Validate user should directly land on "Ready to shop & save?" page|
 |	|
@@ -133,34 +133,34 @@
 ||Re-adding Mango plugin extension|
 |	|******************************************************************************************************************|
 |1|Open Chrome Browser and go to Manage Extensions|
-|2|	Click on "Remove" button for Mango: Auto-Apply Coupon Codes extension|
-|3|	Validate a popup should display asking user "Remove Mango: Auto-Apply Coupon Codes?"|
+|2|	Click on "Remove" button for Minty: Your Shopping Companion extension|
+|3|	Validate a popup should display asking user "Remove Minty: Your Shopping Companion extension?"|
 |4|	Click Cancel|
-|5|	Validate JoinMango plugin should not get removed from chrome extensions|
+|5|	Validate Minty plugin should not get removed from chrome extensions|
 |	|******************************************************************************************************************|
 |1 |Open Chrome Browser and go to Manage Extensions|
-|2|	Click on "Remove" button for Mango: Auto-Apply Coupon Codes extension|
-|3|	Validate a popup should display asking user "Remove Mango: Auto-Apply Coupon Codes?"|
+|2|	Click on "Remove" button for Minty: Your Shopping Companion extension|
+|3|	Validate a popup should display asking user "Remove Minty: Your Shopping Companion extension?"|
 |4|	Click Remove|
-|5|	Validate JoinMango plugin should get removed successfully from chrome extensions|
-|6|	User should land on page https://joinmango.co/uninstall|
-|7|	Validate Page should ask users feedback "Help us improve"|
+|5|	Validate Minty plugin should get removed successfully from chrome extensions|
+|6|	User should land on page https://www.minty.com/uninstal|
+|7|	Validate Page should ask users feedback "Help me improve"|
 |8|	Select a reason to uninstall and click Submit|
-|9|	Validate JoinMango should receive users feedback successfully and save in DB|
+|9|	Validate Minty should receive users feedback successfully and save in DB|
 |	|******************************************************************************************************************|
 ||Remove Mango Plugin extension using Manage Extensions and vaidating cancel function|
 |	|******************************************************************************************************************|
-|1 |Open Chrome Browser and go to JoinMango.co|
-|2|	Click on "Add to Chrome - It's Free" button|
+|1 |Open Chrome Browser and go to https://www.minty.com/|
+|2|	Click on "Get Minty - It's Free" button||
 |3|	User should land on chrome Web Store Page|
 |4|	Click "Remove from Chrome" button|
-|5|	Validate a popup should display asking user "Remove Mango: Auto-Apply Coupon Codes?"|
+|5|	Validate a popup should display asking user "Minty: Your Shopping Companion"|
 |6|	Click Cancel|
-|7|	Validate JoinMango plugin should not get removed from chrome extensions|
+|7|	Validate Minty plugin should not get removed from chrome extensions|
 |8|	Click Remove|
-|9|	Validate JoinMango plugin should get removed successfully from chrome extensions|
+|9|	Validate Minty plugin should get removed successfully from chrome extensions|
 |	|******************************************************************************************************************|
-|	|"Remove Mango Plugin extension using ""Remove From Chrome"" button on Chrome Web Store Page|
+|	|"Remove Minty Plugin extension using ""Remove From Chrome"" button on Chrome Web Store Page|
 |	|******************************************************************************************************************|
 
 
@@ -171,7 +171,7 @@
 
 |Steps                            |	Actions                                          |
 |---------------------------------|---------------------------------------------------------------------------------------------------|
-|1|	Open Chrome Browser and click on JoinMango Plugin|
+|1|	Open Chrome Browser and click on Minty Plugin|
 |2|	Click on Search Icon|
 |3|	Search a store|
 |4|	Find a store that has an afiliate link|
@@ -179,11 +179,11 @@
 |	|******************************************************|
 |	|Search and Affiliate links validation (scenario above)|
 |	|******************************************************|
-|1|	Open Chrome Browser and go to store which is not supported by JoinMango|
-|2|	Click on Join Mango Plugin|
+|1|	Open Chrome Browser and go to store which is not supported by Minty|
+|2|	Click on Minty Plugin|
 |3|	Validate User should see a message "We don't support this website at the moment. If you think this store should be added, let us know and we'll add it as soon as possible."|
 |4|	Click on Submit Request|
-|5|	"Validate request should submit successfully and user should get message "Thank you! Our team is working on it and the store will be added to Mango shortly!"|
+|5|	"Validate request should submit successfully and user should get message "Thank you! Our team is working on it and the store will be added to Minty shortly!"|
 |6|	Validate JoinMango should receive request to add the store|
 |7|	Click Done Button. 'Validate user should go back to JoinMango plugin home page|
 |	|******************************************************|
