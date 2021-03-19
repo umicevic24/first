@@ -98,11 +98,8 @@
 |6|Start auto-apply again|
 |7|After finish validate which of the coupons have been expired|
 |||
-|Run the process again and validate if the results are the same:|
-|||
-|||
-||Important notice: Be familiar with single page sites and implement the scenario on them as well!|
-
+|Run the process again and validate if the results are the same!|
+|Important notice: Be familiar with single page sites and implement the scenario on them as well!||
 
 # Installation journey
 
