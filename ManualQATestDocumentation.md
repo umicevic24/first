@@ -1,8 +1,8 @@
 # Auto apply (Main Thread Scenario)
 
 
-|Steps                            |	Actions                                          |
-|---------------------------------|---------------------------------------------------------------------------------------------------|
+|Steps|	Actions                                          |
+|-----|---------------------------------------------------------------------------------------------------|
 |1|Install and pin the correct version of the plugin                                                  |
 |2|Go to the any selected store                                                                       |
 |3|Validate that the store is supported                                                               |
